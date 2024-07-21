@@ -1,0 +1,351 @@
+
+
+body{
+    background-color:rgba(240, 238, 237, 0.941)
+    
+}
+
+.main{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ min-height:100vh; 
+}
+
+
+.form a {
+  text-decoration: none;
+}
+
+.form{
+  text-align: center;
+}
+input[type=text] {
+  width:  500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input[type=email] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+ 
+}
+input[type=password] {
+  width:  500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+ 
+}
+.password{
+  text-align: center;
+  margin-top:50px;
+  margin-right: 40px;
+}
+
+input[type=password]{
+  width:100%;
+}
+
+
+input[type=text] {
+  width:  100%;
+  box-sizing: border-box;
+ 
+}
+input[type=email] {
+  width: 100%;
+  box-sizing: border-box;
+ 
+}
+
+  
+
+.loginform{
+  margin-top: 30px;
+  text-align: center;
+}
+button:hover{
+  background-color:#b50b96;
+  color:rgb(34, 204, 88);
+      
+}
+
+.content{
+padding-top: 300px;
+margin-top: 70px;
+
+}
+.aboutbg{
+ background-image: url(Student/busimages/th.jpeg);
+  width: 1450px;
+  height: 700px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.aboutus{
+  width:1450px;
+  height:50px;
+  background-color:rgb(219, 230, 16);
+  border-right:1px solid #bbb;
+  padding-top: 30px;
+  margin: 10px;
+  
+  
+}
+
+.about-box{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+    *{
+			text-decoration: none;
+		}
+		.navbar{
+			
+      font-family: calibri;
+       padding-right: 10px;
+       padding-left: 10px;
+      height: 100px;
+      width: 1500px;
+		}
+		.navdiv{
+			display: flex;
+       align-items: center; 
+       justify-content: space-between;
+		}
+    .logos{
+      color: #c62424;
+    }
+		.logos a{
+			color: #8ebe12; /* Color of the text */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Padding around the text */
+  display: inline-block;
+  font-size: 50px;
+		}
+    .logos a:hover {
+      background-color: #555;
+    }
+    .logos a:active {
+      background-color: #0b867b; /* Background color when active/clicked */
+    }
+    
+    .logos a:focus {
+      outline: none;
+    }
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+		button{
+			background-color: rgb(248, 9, 212); margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+    ul{
+      margin-right: 10px;
+    }
+
+.login{
+  width:500px;
+  color: #bbb;
+  margin: 3px solid rgb(223, 220, 220);
+  height: 410px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.59);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+border: 1px solid rgba(255, 255, 255, 0.99);
+background-color: #3eb5d3;
+}
+.login h2{
+  font-size: 36px;
+  text-align: center;
+  color: rgb(220, 75, 17);
+}
+ 
+.form-group{
+  width: 100%;
+  height: 100%;
+  color:black;
+  /* background: transparent; */
+  padding-left: 10px;
+  padding-right: 20px;
+  border:none;
+  outline:none;
+  box-sizing: border-box;
+  
+}
+#username{
+  width: 100%;
+  height:40px;
+  margin:(20px,0px,10px,0px);
+  padding: 0px;
+  border-radius: 8px;
+}
+#password{
+  width: 100%;
+  height:40px;
+  margin:(20px,0px,100px,0px);
+  padding: 0px;
+  border-radius: 8px;
+}
+.sign{
+  font-size: 20px;
+  
+}
+.forgot{
+  margin-top: 30px;
+}
+
+.form-group input::placeholder{
+  color:#fff;
+  
+}
+.btnform{
+  text-align: center;
+  margin-left: 200px;
+  background-color: yellow;
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+}
+.logod{
+  width:520px;
+  padding: 5px;
+  color: #c71111;
+  margin: 3px solid rgb(223, 220, 220);
+  height: 450px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.59);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+border: 1px solid rgba(255, 255, 255, 0.99);
+background-color: #d9dacd;
+}
+.col{
+  max-width: 400px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: rgb(229, 237, 239);
+        background: rgba(255, 255, 255, 0.59);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+border: 1px solid rgba(255, 255, 255, 0.99);
+        
+}
+
+.section{
+  margin-bottom: 30px;
+}
+.location-icon {
+  color: #007bff;
+  font-size: 24px;
+  margin-right: 5px;
+}
+.about{
+  display:flex;
+  margin:0;
+  margin-top: 35px;
+  height:550px;
+  
+}
+.pc1{
+ 
+  width:50%;
+  height:550px;
+}
+.pc2{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);
+ 
+  width:50%;
+  height:550px;
+}
+.case1{
+width:75%;
+height:270px;
+border: 2px solid red;
+transform: translate(15px, 20px);
+background: url(./busimages/about1.jpg);
+background-size:100% 100%;
+background-size: 100% 100%;
+}
+.case2{
+  width:90%;
+  height:300px;
+  border: 2px solid red;
+  transform: translate(0px, 10px);
+  background: url(./busimages/about2.jpg);
+background-size:100% 100%;
+  }
+  .case3{
+    width:60%;
+    height:30vh;
+    border: 2px solid red;
+    transform: translate(30px, 15px);
+    background: url(./busimages/about3.jpg);
+    background-size:100% 100%;
+    
+    }
+    .case4{
+      width:80%;
+      height:200px;
+      border: 2px solid red;
+      transform: translate(10px, 40px);
+      background: url(./busimages/about4.webp);
+        background-size:100% 100%;
+      }
+      .btn{
+        margin-left:80px;
+        margin-top: 20px;
+        width: 30%;
+        height:40px;
+   box-sizing: border-box;
+   border-radius: 7px;
+   margin-right:40px;
+      }
+.content{
+  margin-top: 130px;
+  margin-left: 600px;
+}
+.indexb{
+ margin-bottom: 20px;
+ margin-left: 80px;
+}
+.pass{
+  width: 100%;
+  height: 100px;
+  background-color: #dedadd;
+  border: 2px solid black;
+  text-align: center;
+  font-size:40px;
+  font-weight:500;
+}
